@@ -1,0 +1,9 @@
+CREATE TABLE `authors` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`addres` VARCHAR(15) NOT NULL COLLATE 'utf8_unicode_ci',
+        `company` VARCHAR(15) NOT NULL COLLATE 'utf8_unicode_ci',
+        `company2` VARCHAR(15) NOT NULL COLLATE 'utf8_unicode_ci',
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
